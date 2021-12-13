@@ -7,7 +7,33 @@
     <title>Document</title>
   </head>
   <body>
-    <h1 class="text-danger">Hello World</h1>
-    <section class="row"></section>
+    <div class="container">
+      <mat-sidenav-container fxFlexFill color="primary">
+        <mat-sidenav #sidenav>
+          <mat-nav-list>
+            <a (click)="sidenav.toggle()" href="" mat-list-item>Close</a>
+            <a href="/home" mat-list-item
+              ><mat-icon>brightness_3</mat-icon>Home</a
+            >
+            <a href="/details" mat-list-item
+              ><mat-icon>note_add</mat-icon>Details</a
+            >
+            <a href="/products" mat-list-item
+              ><mat-icon>published_with_changes</mat-icon>Services</a
+            >
+            <a href="/apply" mat-list-item
+              ><mat-icon>record_voice_over</mat-icon>Apply</a
+            >
+            <a href="#" mat-list-item><mat-icon>redeem</mat-icon>Menu Item 5</a>
+            <a href="#" mat-list-item><mat-icon>loop</mat-icon>Menu Item 6</a>
+          </mat-nav-list>
+        </mat-sidenav>
+        <!-- below is the main content of the site -->
+        <mat-sidenav-content fxFlexFill>
+          <router-outlet></router-outlet>
+          <!-- below is the closing of the site content -->
+        </mat-sidenav-content>
+      </mat-sidenav-container>
+    </div>
   </body>
 </html>

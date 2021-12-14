@@ -11,6 +11,8 @@ import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatTableModule } from '@angular/material/table' ;
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatInputModule} from '@angular/material/input';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
@@ -31,6 +33,8 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
     MatCardModule,
     MatFormFieldModule,
     MatTableModule,
+    MatToolbarModule,
+    MatInputModule,
     BrowserAnimationsModule
   ],
   providers: [],

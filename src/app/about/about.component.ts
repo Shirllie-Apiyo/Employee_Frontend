@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { MatTableDataSource } from '@angular/material/table';
 
+
 export interface EmployeeDetails{
   name:string;
   gender:string;
@@ -39,6 +40,7 @@ export class AboutComponent implements OnInit {
 
   //specify columns to display
   displayedColumns: string[] =['name', 'gender', 'weight', 'town','tel'];
+
 
   constructor() { }
 

@@ -9,6 +9,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatTableModule } from '@angular/material/table' ;
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
@@ -27,6 +29,8 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
     MatIconModule,
     MatListModule,
     MatCardModule,
+    MatFormFieldModule,
+    MatTableModule,
     BrowserAnimationsModule
   ],
   providers: [],

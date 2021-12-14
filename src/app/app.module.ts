@@ -15,6 +15,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatInputModule} from '@angular/material/input';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
     AppComponent,
     AboutComponent,
     DashboardComponent,
-    NopagefoundComponent
+    NopagefoundComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,

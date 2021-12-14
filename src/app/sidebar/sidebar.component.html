@@ -1,24 +1,26 @@
-<div class="sidebar-wrapper">
-  <div class="logo">
-    <a href="http://www.creative-tim.com" class="simple-text logo-mini">
-      <div class="logo-image-small">
-        <img src="assets/img/angular2-logo.png" />
-      </div>
-    </a>
-    <a href="https://www.creative-tim.com" class="simple-text logo-normal">
-      Creative Tim
-    </a>
+<mat-nav-list>
+  <div class="logo py-4">
+    <img src="/assets/icon1.png" id="icon" alt="Emplify" />
   </div>
-  <ul class="nav">
-    <li
-      *ngFor="let menuItem of menuItems"
-      routerLinkActive="active"
-      class="{{ menuItem.class }}"
-    >
-      <a [routerLink]="[menuItem.path]">
-        <i class="nc-icon {{ menuItem.icon }}"></i>
-        <p>{{ menuItem.title }}</p>
-      </a>
-    </li>
-  </ul>
-</div>
+  <mat-divider></mat-divider>
+  <h2 matSubheader class="mt-2">APPLICATIONS</h2>
+  <a
+    href=""
+    mat-list-item
+    routerLink="/dashboard"
+    routerLinkActive="list-item-active"
+  >
+    <mat-icon>dashboard</mat-icon>Dashboard
+  </a>
+  <a
+    href=""
+    mat-list-item
+    routerLink="/about"
+    routerLinkActive="list-item-active"
+  >
+    <mat-icon>note_add</mat-icon>About
+  </a>
+  <a mat-list-item> <mat-icon>settings</mat-icon>Link 3 </a>
+  <a mat-list-item> <mat-icon>today</mat-icon>Link 4 </a>
+  <a mat-list-item> <mat-icon>how_to_reg</mat-icon>Link 5 </a>
+</mat-nav-list>

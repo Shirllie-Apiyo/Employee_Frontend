@@ -1,0 +1,21 @@
+.logo {
+  text-align: left;
+  padding: 2px 1.5px;
+}
+#icon {
+  width: 50px;
+}
+.mat-icon {
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+.mat-divider {
+  border-top-width: 2px;
+  border-color: white;
+}
+.mat-list-item {
+  color: azure !important;
+  font-size: 0.8rem;
+  height: 44px !important;
+  margin-bottom: 4px;
+}

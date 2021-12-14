@@ -13,9 +13,12 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatTableModule } from '@angular/material/table' ;
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatInputModule} from '@angular/material/input';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatDividerModule} from '@angular/material/divider';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -24,7 +27,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     AboutComponent,
     DashboardComponent,
     NopagefoundComponent,
-    SidebarComponent
+    SidebarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +41,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     MatTableModule,
     MatToolbarModule,
     MatInputModule,
+    MatMenuModule,
+    MatDividerModule,
     BrowserAnimationsModule
   ],
   providers: [],

@@ -1,6 +1,7 @@
 <mat-nav-list>
   <div class="logo py-4">
     <img src="/assets/icon1.png" id="icon" alt="Emplify" />
+    <!-- <h2>Emplify</h2> -->
   </div>
   <mat-divider></mat-divider>
   <h2 matSubheader class="mt-2">APPLICATIONS</h2>
@@ -20,7 +21,22 @@
   >
     <mat-icon>note_add</mat-icon>About
   </a>
-  <a mat-list-item> <mat-icon>settings</mat-icon>Link 3 </a>
-  <a mat-list-item> <mat-icon>today</mat-icon>Link 4 </a>
+  <a
+    href=""
+    mat-list-item
+    routerLink="/stats"
+    routerLinkActive="list-item-active"
+  >
+    <mat-icon>today</mat-icon>Statistics
+  </a>
+  <a
+    href=""
+    mat-list-item
+    routerLink="/register"
+    routerLinkActive="list-item-active"
+  >
+    <mat-icon>how_to_reg</mat-icon>Register
+  </a>
+
   <a mat-list-item> <mat-icon>how_to_reg</mat-icon>Link 5 </a>
 </mat-nav-list>

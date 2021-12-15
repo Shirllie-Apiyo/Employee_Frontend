@@ -19,6 +19,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
+import { StatsComponent } from './stats/stats.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -28,7 +30,9 @@ import { FooterComponent } from './footer/footer.component';
     DashboardComponent,
     NopagefoundComponent,
     SidebarComponent,
-    FooterComponent
+    FooterComponent,
+    StatsComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
